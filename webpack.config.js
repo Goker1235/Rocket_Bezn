@@ -7,7 +7,7 @@ const devServer = (isDev) => !isDev ? {} : {
     devServer: {
         open: true,
         hot: true,
-        port: 8080,
+        port: 8082,
     }
 };
 
@@ -16,7 +16,7 @@ module.exports = ({develop}) => ({
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'index.js',
     clean: true,
   },
   plugins: [
@@ -30,7 +30,7 @@ module.exports = ({develop}) => ({
         patterns: [
             { from: './src/form.html', to: 'form.html' },
             { from: 'src/index.php', to: 'index.php' },
-            { from: 'src/PHPMailer', to: 'phpmailer' }
+            { from: 'src/PHPMailer', to: 'PHPMailer' }
         ]
     })
   ],
