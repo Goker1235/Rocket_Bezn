@@ -32,7 +32,7 @@ $mail->Password = 'sshbhppawvconkoz';
 $mail->setFrom('Rud1k23@yandex.ru', 'Snipp.ru');
 
 
-$mail->addAddress('rudenko_aleks@list.ru', 'Иванов Иван');
+$mail->addAddress('rbru-metrika@yandex.ru', 'Руденко Александр');
 
 // Тема письма
 $mail->Subject = "ddd";
@@ -40,7 +40,7 @@ $mail->Subject = "ddd";
 // Тело письма
 $mail->msgHTML($body);
 
-//header("Location: http://localhost:8082/index.html");
+header("Location: http://localhost:8082/index.html");
  
 $mail->send();
 ?>
