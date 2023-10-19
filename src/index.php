@@ -27,7 +27,7 @@ $mail->SMTPDebug = 2;
 $mail->Host = 'smtp.yandex.ru';
 $mail->Port = 587;
 $mail->Username = 'Rud1k23@yandex.ru';
-$mail->Password = 'sshbhppawvconkoz';
+$mail->Password = '888888888';
 
 $mail->setFrom('Rud1k23@yandex.ru', 'Snipp.ru');
 
